@@ -1,0 +1,18 @@
+# Secrets — never commit (public repo)
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Generated screenshot output (deliverables; re-generated from raw/ + config)
+**/output/
+
+# Playwright
+/test-results/
+/playwright-report/
+
+# macOS
+.DS_Store
