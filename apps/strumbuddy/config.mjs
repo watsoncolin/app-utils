@@ -21,11 +21,12 @@ export default {
 
   // Strongest value first — ~90% of users never scroll past #3.
   screens: [
-    { file: '01.png', caption: 'Your guitar coach\nthat listens' },
-    { file: '02.png', caption: 'Feedback on\nevery string' },
-    { file: '03.png', caption: 'Know what to\npractice next' },
-    { file: '04.png', caption: 'Five minutes a day' },
-    { file: '05.png', caption: 'Tune in seconds' },
-    { file: '06.png', caption: 'Watch every\nskill grow' },
+    { file: '01.png', caption: 'Your guitar coach\nthat listens' },   // Today (streak)
+    { file: '02.png', caption: 'A clear path\nto follow' },           // Path (milestones)
+    { file: '03.png', caption: 'Know what to\npractice next' },       // Practice — work-on
+    { file: '04.png', caption: 'Five minutes a day' },                // Today (≈01: recapture distinct, e.g. in-session runner)
+    { file: '05.png', caption: 'Tune in seconds' },                   // Tuner
+    { file: '06.png', caption: 'Watch every\nskill grow' },           // Practice — skill bars
+    // TODO: capture "Feedback on every string" (Chord Check live) on a real device — the key differentiator.
   ],
 };
