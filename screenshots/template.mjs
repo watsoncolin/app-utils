@@ -23,6 +23,8 @@ export function buildHTML(o) {
   const screenRadius = radius - bezelW;
   const shadowY = Math.round(W * 0.025);
   const shadowBlur = Math.round(W * 0.06);
+  // iPhone-style Dynamic Island by default; Android configs set theme.island: false.
+  const island = theme.island === false ? '' : '<div class="island"></div>';
   const islandW = Math.round(phoneW * 0.30);
   const islandH = Math.round(phoneW * 0.075);
 
@@ -48,7 +50,7 @@ export function buildHTML(o) {
   </style></head><body>
     <div class="canvas">
       <div class="caption">${esc(caption).replace(/\n/g, '<br>')}</div>
-      <div class="phone"><div class="island"></div>
+      <div class="phone">${island}
         <img class="screen" src="${imgDataUri}"></div>
     </div>
   </body></html>`;
