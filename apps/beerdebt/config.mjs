@@ -22,12 +22,12 @@ export default {
 
   // Strongest value first — ~90% of users never scroll past #3.
   screens: [
-    { file: '01.png', caption: 'Drink now.\nRun later.' },             // Home, in debt — the tagline
-    { file: '02.png', caption: 'Compound interest,\nbut for beer.' },  // Beer added — the projection table
-    { file: '03.png', caption: "Sunday's run pays\nSaturday's tab." },  // Runs from Apple Health
-    { file: '04.png', caption: 'Prepay your\nnext round.' },           // Home, credit banked
-    { file: '05.png', caption: 'Your tab,\nitemized.' },               // The Ledger
-    { file: '06.png', caption: 'Tab paid.\nCheers.' },                 // Debt Free
-    { file: '07.png', caption: 'Set your\nown terms.' },               // Settings
+    { file: '01.png', caption: 'Drink now.\nRun later.' },          // Home, in debt — the tagline
+    { file: '02.png', caption: 'Procrastinate,\nrun farther.' },    // Beer added — it grows if you wait
+    { file: '03.png', caption: 'Run it off.' },                      // Runs from Apple Health
+    { file: '04.png', caption: 'Run first,\ndrink guilt-free.' },   // Home, credit banked
+    { file: '05.png', caption: 'Every beer,\nremembered.' },        // The Ledger
+    { file: '06.png', caption: 'All paid up.\nCheers!' },           // Debt Free
+    { file: '07.png', caption: 'Make your\nown rules.' },           // Settings
   ],
 };
