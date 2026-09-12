@@ -24,6 +24,7 @@ export default {
     { file: '02.png', caption: 'Procrastinate,\nrun farther.' },    // Beer added
     { file: '03.png', caption: 'Run it off.' },                      // Runs from Health Connect
     { file: '04.png', caption: 'Run first,\ndrink guilt-free.' },   // Home, credit banked
+    { file: '08.png', caption: 'Run every day,\npay no interest.' }, // Your Streak
     { file: '05.png', caption: 'Every beer,\nremembered.' },        // Your Debt
     { file: '06.png', caption: 'All paid up.\nCheers!' },           // Debt Free
     { file: '07.png', caption: 'Make your\nown rules.' },           // Settings
